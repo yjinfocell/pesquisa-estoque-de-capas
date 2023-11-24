@@ -1,0 +1,146 @@
+.header {
+    position: fixed;
+    top: 0; /* Mantém o cabeçalho no topo da página */
+    left: 0; /* Mantém o cabeçalho na esquerda da página */
+    width: 100%; /* Ocupa toda a largura da página */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Reduzi o padding para diminuir o tamanho */
+    background-color: #ff1b1b;
+    opacity: 0.95;
+    
+}
+
+.banner img {
+    width: 90px; /* Defina a largura desejada */
+    height: auto; /* Mantenha a proporção da imagem */
+    
+}
+
+.logo {
+    position: relative;
+    width: 300px; /* Ajuste o valor conforme necessário para diminuir o tamanho */
+
+}
+
+
+
+.logo img {
+    max-width: 100%; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+}
+
+header h1 {
+    font-size: 24px; /* Tamanho do título reduzido para melhorar a visualização */
+    font-weight: bold;
+    text-align: center; /* Centralizar o texto horizontalmente */
+    margin: 0; /* Remover margem padrão para evitar espaço extra */
+    flex: 1; /* Ocupar espaço restante disponível */
+    font-family: "KOMIKAX";
+}
+
+
+.product {
+    display: inline-block;
+    margin: 60px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.product img {
+    max-width: 100%;
+    width: 450px;
+    height: auto;
+    top: 300
+    
+}
+
+.product-info {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px; /* Arredondar as bordas */
+    margin-top: 10px;
+}
+
+.product-info p {
+    margin: 10px 0;
+}
+
+/* Alterações para a caixa de pesquisa */
+.search-box-container {
+    display: flex;
+    align-items: center;
+    margin: 10px auto; /* Aumentei o margin para melhorar a visualização */
+    padding: 15px;
+    background-color: #ffffff;
+    justify-content: center;
+}
+.product {
+    flex: 0; /* Ocupa espaço igualmente entre os produtos */
+    text-align: center;
+}
+.search-box-icon img {
+    width: 60px; /* Reduzi o tamanho do ícone */
+    height: auto;
+    filter: hue-rotate(0deg);
+}
+
+#search-box {
+    flex: 1;
+    border: none; /* Removi a borda para melhorar a visualização */
+    padding: 10px;
+    font-size: 20px; /* Reduzi o tamanho da fonte */
+    outline: none;
+    background-color: #ffffff;
+    border-radius: 20px; /* Arredondar as bordas */
+}
+
+
+
+body {
+    background-color: rgb(11, 148, 23); /* Nova cor de fundo */
+    margin: 0; /* Remova a margem padrão do corpo */
+    font-family: "KOMIKAX"; /* Defina uma fonte de texto padrão */
+}
+
+/* Estilos para o campo de entrada de quantidade */
+.quantity-input {
+    width: 40px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #fafafa;
+    border-radius: 3px;
+}
+
+/* Estilos para os botões de adicionar e remover quantidade */
+.quantity-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quantity-button {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border: none;
+    color: #555;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.botao-home {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    border-right-color: #000;
+}
+.botao-home:hover {
+    background-color: #0056b3; /* Cor quando o mouse passa por cima */
+    color: #fff; /* Cor do texto quando o mouse passa por cima */
+}
